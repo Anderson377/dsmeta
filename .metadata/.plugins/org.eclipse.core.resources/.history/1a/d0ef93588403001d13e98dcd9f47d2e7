@@ -1,0 +1,5 @@
+package com.andersondolce.demo.config;
+
+public class SecurityConfig {
+
+}

@@ -1,0 +1,23 @@
+package com.andersondolce.demo.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.andersondolce.demo.entities.Sale;
+import com.andersondolce.demo.services.SaleService;
+
+@RestController
+@RequestMapping(value = "/sales")
+public class SaleControlles {
+
+	@Autowired
+	private SaleService service;
+	
+	public List<Sale> findSales(){
+		return service.findSales();
+	}
+	
+}

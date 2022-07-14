@@ -1,0 +1,5 @@
+package com.andersondolce.demo.repositories;
+
+public interface SaleRepository {
+
+}
