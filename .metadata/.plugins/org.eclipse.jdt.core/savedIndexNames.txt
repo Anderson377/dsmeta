@@ -35,7 +35,6 @@ INDEX VERSION 1.131+D:\Semana Spring React\projetos\dsmeta\.metadata\.plugins\or
 859414228.index
 3458527259.index
 1000032233.index
-1965174767.index
 1130202032.index
 417625245.index
 692639466.index
